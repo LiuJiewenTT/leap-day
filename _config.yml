@@ -15,7 +15,7 @@ defaults:
     values:
       # author: "刘杰文"
       # title: "leap-day | Document"
-      layout: leap_day_customized_v5.1
+      layout: leap_day_customized_v5.1.1
       # allow_download_doc: true
 
 author: "刘杰文"
