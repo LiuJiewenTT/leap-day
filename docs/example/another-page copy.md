@@ -3,7 +3,7 @@ author: unknown
 tags: [example]
 categories: [example]
 redirect_from:
-  - /example/another
+  - /example/another2
 ---
 
 ## Welcome to another page
