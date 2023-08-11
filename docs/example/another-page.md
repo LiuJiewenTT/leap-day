@@ -1,5 +1,4 @@
 ---
-layout: default
 allow_download_doc: false
 tags: [example]
 categories: [example]

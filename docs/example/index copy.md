@@ -1,10 +1,13 @@
 ---
+layout: default
 allow_download_doc: true
 tags: [example, index]
 categories: [example]
 ---
 
-All of this site perfectly supports browsing from mobile devices.
+This is a page using original layout and my customized stylesheet.
+
+---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
