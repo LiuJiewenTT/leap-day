@@ -3,7 +3,7 @@ Leap day is a Jekyll theme for GitHub Pages. And this is my customization.
 
 ## Example website entrance
 
-<./docs/example/>
+[link](./docs/example/)
 
 ## Using
 You can treat this as a beginner and copy all these prepared to your project. (Remove example files by yourself, of course.)
