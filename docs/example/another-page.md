@@ -6,6 +6,8 @@ redirect_from:
   - /example/another
 ---
 
+# H1 header is always a must
+
 ## Welcome to another page
 
 _yay_
