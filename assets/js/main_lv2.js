@@ -1,4 +1,4 @@
-var sectionHeight_lv2 = function() {
+var sectionHeight_lv2 = function sectionHeight_lv2_func() {
     console.log('Triggered: main_lv2.js');
     sectionHeight();
     console.log('---[Processing star_section...]:Begin---');
@@ -13,6 +13,6 @@ var sectionHeight_lv2 = function() {
 }
 
 $(window).resize(sectionHeight_lv2);
-$(window).addEventListener("load", sectionHeight_lv2);
+$(window).addEventListener("load", sectionHeight_lv2_func);
 
 sectionHeight_lv2();
