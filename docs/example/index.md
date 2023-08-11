@@ -6,6 +6,10 @@ categories: [example]
 
 All of this site perfectly supports browsing from mobile devices.
 
+If you don't want to use my layout but my stylesheet only, visit [this page](./index copy.md).
+
+---
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
