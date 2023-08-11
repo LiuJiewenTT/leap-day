@@ -1,5 +1,8 @@
 ---
 layout: default
+allow_download_doc: true
+tags: [example, index]
+categories: [example]
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
