@@ -1,14 +1,15 @@
 var sectionHeight_lv2 = function() {
-    console.log('Triggered: main_lv2.js')
-    console.log($('section').attr('class'))
-    if ( $('section').attr('class') == 'star_section' ) {
-        console.log('Triggered: min-content')
-        $('section').css('height','min-content');
-        sleep(15)
-    } else {
-        console.log('Triggered: main_lv2.js --> main.js')
-        sectionHeight()
+    console.log('Triggered: main_lv2.js');
+    sectionHeight();
+    console.log('---[Processing star_section...]:Begin---');
+    var star_sections = document.querySelectorAll('.star_section');
+    console.log('star_sections.length = ' + star_sections.length);
+    for(var i=0; i<star_sections.length; i++) {
+        console.log('Processing No.' + i + ' matched section...');
+        star_sections[i].style.cssText += 'height: min-content';
+        // star_sections[i].css('height','min-content');
     }
+    console.log('---[Processing star_section...]:End---');
 }
 
 $(window).resize(sectionHeight_lv2);
