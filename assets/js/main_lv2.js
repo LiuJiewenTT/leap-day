@@ -13,3 +13,5 @@ var sectionHeight_lv2 = function() {
 }
 
 $(window).resize(sectionHeight_lv2);
+
+sectionHeight_lv2();
